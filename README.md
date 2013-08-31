@@ -5,12 +5,15 @@ Bodule的Express中间件，在Express项目中，随心所欲地在浏览器端
 
 ## 安装
 
+```bash
     npm install bodule-middleware
+```
 
 ## 使用方式
 
 使用`npm`安装在浏览器端使用的模块，例如：
 
+```bash
     node_modules/
     ├── backbone
     │   ├── CNAME
@@ -32,6 +35,7 @@ Bodule的Express中间件，在Express项目中，随心所欲地在浏览器端
         ├── package.json
         ├── underscore-min.map
         └── underscore.js
+```
 
 在expres项目中，添加上bodule-middleware：
 
@@ -39,6 +43,7 @@ Bodule的Express中间件，在Express项目中，随心所欲地在浏览器端
 
 在web app中：
 
+```jade
     doctype 5
     html
       head
@@ -52,3 +57,4 @@ Bodule的Express中间件，在Express项目中，随心所欲地在浏览器端
           })
       body
         block content
+```
